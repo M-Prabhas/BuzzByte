@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+.whole{
+  display:flex;
+  flex-direction:row-reverse;
+}
+.first{
+  min-height:100vh;
+  width:50vw;
+  margin-left:0;
+  margin-top: 0;
+  background-color: rgba(191, 192, 185, 0.101);
+  border-left: 10px solid black ;
+  /* border: solid black ; */
+  font-family: 'Pacifico', cursive;
+  font-size: 21px;
+  padding-top: 10px;
+}
+
+.first h3{
+  text-decoration: underline;
+  font-family: 'Pacifico', cursive;
+  padding-top: 16px;
+  padding-bottom: 20px;
+  padding-left:14px;
+}
+.first .Link{
+   display: flex;
+   flex-direction:row;
+   color:rgb(121, 127, 134);
+   font-family: 'Pacifico', cursive;
+   font-size: 21px;
+   align-items: flex-start;
+   justify-content: center;
+   padding:5px 10px 10px 15px;
+   border:black solid 5px;
+   width:650px;
+   margin-bottom: 2em;
+   position:relative;
+   left:3em;
+}
+
+.first .Link .imgurl{
+   height:230px;
+   width:350px;
+   border-right:rgb(29, 17, 17) solid 4px;
+}
+
+.first .Link .description{
+   padding-top:20px;
+   padding-left:10px ;
+   padding-right: 6px;
+   color:rgb(246, 9, 246);
+   text-decoration: none;
+   transition:color,text-decoration 3; 
+}
+
+.first .Link .description:hover{
+   color:rgb(42, 140, 244);
+   text-decoration:underline;
+}
+
+.second{
+  position:fixed;
+  left:0em;
+  top:0em;
+  padding-top:3rem ;
+  padding-left:4rem ;
+  background-color:gainsboro;
+  height:100vh;
+  width:49vw;
+  color:rgb(248, 41, 41);
+  font-family: 'Acme', sans-serif;
+}
+
+
+
+.second a{
+  display:block;
+  text-decoration: none;
+  color:white;
+  font-size: 1.4rem;
+}
+
+.show {
+    display: block;
+    cursor:pointer;
+    color:aliceblue;
+  }
+  
+  .hideshow {
+    display:none ;
+  }

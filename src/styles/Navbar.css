@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+header{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    height:4rem;
+    width:auto;
+    background-color: #4db1ca;
+    font-size:1rem;
+    display:flex;
+    flex-direction:row;
+    overflow: hidden;
+    z-index:5;
+}   
+
+header p{
+    padding-left: 1rem;
+    font-size: 2.7rem;
+    font-family: 'Abril Fatface', cursive;
+    color:#100f0d;
+    font-style: italic;
+    position:absolute;
+    top:10px;
+    left:8px;
+}
+
+header .Navbar{
+    font-size:1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    position:absolute;
+    right:35px;
+    top:22px;
+}
+
+header .Navbar a{
+    text-decoration: none;
+    padding-right: 17px;
+    font-size:1.3rem;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    color:whitesmoke;
+}
+
+header .Navbar a:hover{
+    color:#4F4A41;
+}
+
+
+
+

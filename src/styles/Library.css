@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.NewsCollection{
+    height: 100vh;
+    width:60vw;
+    background-color: black;
+    color:antiquewhite;
+    position:absolute;
+    left:0;
+}
+.NewsCollection h2{
+    position:relative;
+    left:10rem;
+    top:12rem;
+    font-family: 'Foldit', cursive;
+    background-color: rgb(255, 255, 255);
+    font-size: 4rem;
+
+}
+
+.NewsCollection .inner{
+    position:relative;
+    left:11rem;
+    top:17rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+    color:rgb(232, 78, 22);
+    height: 14rem;
+    width:18rem;
+}
+
+.output{
+     height:100vh;
+     width:40vw;
+     background-color: azure;
+     color:rgb(71, 92, 85);
+     position:absolute;
+     right:0;
+}
+
+.output .dialogue1{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    color:black;
+    margin-top: 5rem; 
+
+}
+
+.output .heading1,.heading2{
+    color:black;
+    margin-top :4rem;
+    font-size:1.5rem;
+    cursor:pointer;
+    margin-left:3rem;
+}
+
+.output .dialogue2{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    color:black;
+    margin-top: 5rem;
+    margin-left: 6rem;
+}
+

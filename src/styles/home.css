@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+
+.ret1{
+    background-color: #88BDBC;
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    align-items: center; 
+    padding-top:80px;
+} 
+
+.container .tank1 p{
+    width:600px;
+    height:auto;
+    color:azure;
+    padding-bottom:10px;
+    padding-right:50px;
+
+}
+
+.container .tank2 img{
+     height:300px;
+     width:480px;
+     border-radius: 10px;
+     border:solid black 6px;
+     margin-left:60px;
+}
+
+.carousel{
+      margin-top: 49px;
+      height:300px;
+      width:700px;
+      margin-bottom: 60px;
+}
+
+.searchInput{
+    margin-top: auto;
+    margin-bottom: auto; 
+    border-radius: 10px;
+    height:3rem;
+    width:13rem;
+    border-width: 0.5rem;
+    border-color: rgb(49, 48, 46);
+    border-style: ridge;
+    outline: none;
+    padding-left:7px;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(109, 73, 35);
+}
+
+.searchInput:placeholder-shown{
+    color: rgb(109, 73, 35);
+}
+Carousel {
+    width:700px;
+    height:300px;
+  }
+
+  .About{
+    background-color:#112D32;
+    height:auto;
+    width:auto;
+    margin-top:50px;
+    color:aliceblue;
+    font-size: 1.2rem;
+    font-weight:100;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .About .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+  }
+  .About .icons img{
+    height:30px;
+    width:25px;
+    border-radius: 10px;
+    margin-right: 2rem;
+    margin-left:0.5rem;
+    cursor:pointer;
+  }
+
+.description span{
+     font-weight: 200;
+     align-self: center;
+}

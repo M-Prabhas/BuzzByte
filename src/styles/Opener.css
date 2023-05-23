@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@500&display=swap');
+
+
+.scroller{
+  overflow-x: hidden;
+}
+.headoingnews{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  width: 100vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: black;
+  color:azure;
+  height:6rem;
+  font-size: 4rem;
+  font-family: 'Foldit', cursive;
+  overflow:hidden;
+}
+
+.headnews{
+  font-family: 'Foldit', cursive;
+  margin-top: 3.7rem;
+  margin-left: 2rem;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+.optionsopener{
+  display:flex;
+  flex-direction: row;  
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  color:azure;
+  font-family: 'Josefin Sans', sans-serif;
+  height:5rem;
+  width:100vw;
+  overflow: hidden;
+}
+
+.optionsopener span{
+   margin-right: 1.3rem;
+   margin-left: 1rem;
+   font-size: 2rem;
+   cursor:pointer;
+}
+
+.cards1{
+  background-color:ghostwhite;
+  margin-top: 3rem;
+  overflow-x:hidden;
+  position: absolute;
+  left:4rem;
+  padding-bottom:3rem;
+}
+
+
+.cards{
+   background-color:ghostwhite;
+   margin-top: 6rem;
+   overflow-x:hidden;
+   position: absolute;
+   left:4rem;
+   padding-bottom:3rem;
+}
