@@ -39,7 +39,7 @@ const CreateContact = () => {
             console.log("touchedme");
          }else{
             console.log("hello world")
-            await axios.post('/signup', {
+            await axios.post('http://localhost:5000/signup', {
                 username:userName ,
                 password:pwd ,
                 email:email   

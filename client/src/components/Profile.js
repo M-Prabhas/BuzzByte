@@ -13,7 +13,7 @@ function Profile(){
   const [apiKey, setApiKey] = useState("");
 
   useEffect(() => {
-    axios.get('/getkey')
+    axios.get('http://localhost:5000/getkey')
       .then(res => {
         console.log(res.data.key);
         setApiKey(res.data.key);

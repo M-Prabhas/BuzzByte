@@ -1,5 +1,6 @@
-require('dotenv').config()
+require("dotenv").config();
 const express = require("express");
+var cors = require('cors');
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const app=express();
@@ -9,6 +10,8 @@ mongoose.connect('mongodb://localhost:27017/hopOnDB');
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
+app.use(cors());
+
 const userSchema=new mongoose.Schema({
     id:String,
     username:{
@@ -17,7 +20,7 @@ const userSchema=new mongoose.Schema({
     },
     email:{
      type:String,
-     rrequired:true
+     required:true
     },
     History:[String],
     password:{

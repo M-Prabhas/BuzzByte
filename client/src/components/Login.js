@@ -16,7 +16,7 @@ export default function Login(){
         if(userName===""){
           setvalid(false);
         }
-      await axios.post('/login', {
+      await axios.post('http://localhost:5000/login', {
           username:userName ,
           password:pwd     
       })

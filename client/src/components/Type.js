@@ -17,7 +17,7 @@ const Type = () => {
     const [cookies,setCookies]=useCookies();
    
     useEffect(()=>{
-        axios.get('/getkey')
+        axios.get('http://localhost:5000/getkey')
           .then(res => {
             console.log(res.data.key);
             setApiKey(res.data.key);
@@ -57,7 +57,7 @@ const Type = () => {
             setmsg("user does not exist just login to enjoy this feature.") ;
         }
         else{
-      await axios.post(`/addhistory`, {
+      await axios.post(`http://localhost:5000/addhistory`, {
           link:e.target.value,  
           email:cookies.user.email  
       })

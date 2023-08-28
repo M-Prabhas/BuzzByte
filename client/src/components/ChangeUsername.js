@@ -16,7 +16,7 @@ const ChangeUsername = () => {
          t=true;
     }
     else{
-  await axios.post(`/changeusername`, {
+  await axios.post(`http://localhost:5000/changeusername`, {
       username:user1,  
       email:cookies.user.email  
   })

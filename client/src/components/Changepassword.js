@@ -22,7 +22,7 @@ const Changepassword = () => {
         console.log("error the person should be logged in .")
         setp(""); 
        }else{
-        await axios.post(`/changepassword`, {
+        await axios.post(`http://localhost:5000/changepassword`, {
           username:uname,  
           password:p,
           email:cookies.user.email  
@@ -59,7 +59,7 @@ const Changepassword = () => {
     setp1("");
     setp2("");
   }else{
-    await axios.post(`/changepasswordtonew`, {  
+    await axios.post(`http://localhost:5000/changepasswordtonew`, {  
       password:p1,
       email:cookies.user.email  
   })
