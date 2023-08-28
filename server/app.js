@@ -197,8 +197,8 @@ User.findOneAndUpdate(
   });
 });
 
+let port = process.env.port || 5000;
 
-
-app.listen(5000, function() {
+app.listen(port, function() {
     console.log("Server started on port 5000");
   });
