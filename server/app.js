@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const app=express();
 
-mongoose.connect(`mongodb+srv://prabhasmuta:${process.env.ATLAS_PASSWORD}@cluster123.edalhqp.mongodb.net/BuzzByteDB?retryWrites=true&w=majority`);
+mongoose.connect(`mongodb+srv://prabhasmuta:${process.env.ATLAS_PASSWORD}@cluster123.edalhqp.mongodb.net/BuzzByteDB`);
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
